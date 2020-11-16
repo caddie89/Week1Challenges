@@ -110,5 +110,12 @@ namespace _04_Week1Challenges
                     break;
             }
         }
+
+        [TestMethod]
+        public void CommitToGit()
+        {
+            string practice = "Too commit, too commit to git.");
+            Console.WriteLine(practice);
+        }
     }
 }
